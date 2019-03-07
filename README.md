@@ -58,5 +58,6 @@ The response is printed on the Serial Monitor of the Arduino IDE and a snapshot 
 
 
 A sample snapshot is shown below:
+
 ![screen shot 2019-03-07 at 12 15 09 pm](https://user-images.githubusercontent.com/14288989/53937315-baa20180-40d2-11e9-8e7e-c8811632a5a9.png)
 
