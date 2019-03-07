@@ -16,6 +16,13 @@ Before I begin, some basics and understanding of the terms used here can be foun
 I'm assuming that the user is familiar with setting up the NodeMCU microcontroller, installing the necessary driver,
 connecting to the Wireless router, and installing libraries. (as this won't be covered in this tutorial)
 
+#### Hardware Requisite:
+
+NodeMCU microntroller
+
+
+#### Some Important links 
+
 #### NodeMCU ESP8266
 https://www.nodemcu.com/index_en.html
 
@@ -26,7 +33,7 @@ https://arduinojson.org/v5/example/
 https://www.arduino.cc/en/guide/libraries
 
 
-####Architecture used in this demo example:
+#### Architecture used in this demo example:
 
 ![screen shot 2019-03-07 at 11 46 01 am](https://user-images.githubusercontent.com/14288989/53936492-eb346c00-40cf-11e9-9797-86bcf6e8098f.png)
 
@@ -59,7 +66,7 @@ response in JSON and parses it and prints it on the serial monitor.
 
 <br>
 
-A sample snapshot of my Arduino IDE Serial Monitor showing the JSON response is shown below:
+#### A sample snapshot of my Arduino IDE Serial Monitor showing the JSON response is shown below:
 
 ![screen shot 2019-03-07 at 12 15 09 pm](https://user-images.githubusercontent.com/14288989/53937315-baa20180-40d2-11e9-8e7e-c8811632a5a9.png)
 
