@@ -1,6 +1,32 @@
 /* This program sends JSON request to arduinojson.org - port 80 and gets a sample 
  *  response.
- *  Prints it after parsing.
+ *  Prints it after parsing. Look for the response in Arduino IDE Serial Monitor.
+ *  Author : Shashi Kiran
+ *  Date : 7 Mar 2019
+ *  
+ *  Prerequisites : Install Arduino JSON library from https://arduinojson.org/
+ *  NodeMCU Repo library has to be installed in the IDE.
+ *  NodeMCU to be connected to the home WiFi router.
+ *
+ *   To Plug and Playthis code, replace the WiFi Credentials below.
+ * 
+ *  Output : Open the Serial Monitor and view the response (that was parsed in this code)
+ *      Sample response that you will see in the Serial Monitor is shown below. NETGEAR is the name of my WiFi Router.           
+ *
+ *      Connecting to NETGEAR84
+ *
+ *	WiFi connected
+ *	IP address: 
+ *	192.168.1.15
+ *	Connecting...
+ *	Connected!
+ *	Response:
+ *	gps
+ *	1351824120
+ *	48.756081
+ *	2.302038
+ *	
+ *
 */
 
 #include <ESP8266WiFi.h>
@@ -10,8 +36,8 @@
 
 
 #ifndef STASSID
-#define STASSID "NETGEAR84"
-#define STAPSK  "welcome2ibm"
+#define STASSID "NETGEAR84"   /* Your WiFi Router credentials */
+#define STAPSK  "XXXXXXX"     /* User Id and Password */
 #endif
 
 const char* ssid     = STASSID;
@@ -35,7 +61,6 @@ void setup() {
      network-issues with your other WiFi-devices on your WiFi-network. */
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
-
 
 
   

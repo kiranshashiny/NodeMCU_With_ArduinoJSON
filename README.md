@@ -31,8 +31,14 @@ Architecture used in this demo example:
 ![screen shot 2019-03-07 at 11 46 01 am](https://user-images.githubusercontent.com/14288989/53936492-eb346c00-40cf-11e9-9797-86bcf6e8098f.png)
 
 
+
+
 Snapshot showing the Arduino IDE File->Examples->Arduino JSON examples after the library is installed.
 ![screen shot 2019-03-07 at 12 00 57 pm](https://user-images.githubusercontent.com/14288989/53936695-c7255a80-40d0-11e9-9b85-1f7a1806a26b.png)
+
+
+
+
 
 Snapshot of the Arduino JSON premade library examples that can be used by modifying to suit our needs.
 ![screen shot 2019-03-07 at 12 02 39 pm](https://user-images.githubusercontent.com/14288989/53936765-fdfb7080-40d0-11e9-8e4b-a80bd99672b6.png)
@@ -51,5 +57,6 @@ The response is printed on the Serial Monitor of the Arduino IDE and a snapshot 
 
 
 
-
+A sample snapshot is shown below:
+![screen shot 2019-03-07 at 12 15 09 pm](https://user-images.githubusercontent.com/14288989/53937315-baa20180-40d2-11e9-8e7e-c8811632a5a9.png)
 
