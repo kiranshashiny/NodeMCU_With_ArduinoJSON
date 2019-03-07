@@ -16,17 +16,17 @@ Before I begin, some basics and understanding of the terms used here can be foun
 I'm assuming that the user is familiar with setting up the NodeMCU microcontroller, installing the necessary driver,
 connecting to the Wireless router, and installing libraries. (as this won't be covered in this tutorial)
 
-NodeMCU ESP8266
+#### NodeMCU ESP8266
 https://www.nodemcu.com/index_en.html
 
-Arduino JSON
+#### Arduino JSON
 https://arduinojson.org/v5/example/
 
-Installing libraries in Arduino IDE.
+#### Installing libraries in Arduino IDE.
 https://www.arduino.cc/en/guide/libraries
 
 
-Architecture used in this demo example:
+####Architecture used in this demo example:
 
 ![screen shot 2019-03-07 at 11 46 01 am](https://user-images.githubusercontent.com/14288989/53936492-eb346c00-40cf-11e9-9797-86bcf6e8098f.png)
 
@@ -39,8 +39,6 @@ Snapshot showing the Arduino IDE File->Examples->Arduino JSON examples after the
 
 <br>
 <br>
-<br>
-<br>
 
 
 Snapshot of the Arduino JSON premade library examples that can be used by modifying to suit our needs.
@@ -48,7 +46,6 @@ I have taken the sample JSON code and modified it suit my needs.
 <br>
 ![screen shot 2019-03-07 at 12 02 39 pm](https://user-images.githubusercontent.com/14288989/53936765-fdfb7080-40d0-11e9-8e4b-a80bd99672b6.png)
 
-<br>
 <br>
 
 Here, I am connecting to http://Arduinojson.org with port 80 in the IDE code and retrieve some sample JSON response.
@@ -60,9 +57,6 @@ The home WiFi router is connected to my Internet Service Provider. The code comm
 the http://arduinojson.org:80 and requests a Sample JSON response, and waits for a 
 response in JSON and parses it and prints it on the serial monitor.
 
-The response is printed on the Serial Monitor of the Arduino IDE and a snapshot is attached below.
-
-<br>
 <br>
 
 A sample snapshot of my Arduino IDE Serial Monitor showing the JSON response is shown below:
