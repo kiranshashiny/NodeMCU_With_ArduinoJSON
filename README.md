@@ -34,6 +34,7 @@ Architecture used in this demo example:
 
 
 Snapshot showing the Arduino IDE File->Examples->Arduino JSON examples after the library is installed.
+<br>
 ![screen shot 2019-03-07 at 12 00 57 pm](https://user-images.githubusercontent.com/14288989/53936695-c7255a80-40d0-11e9-9b85-1f7a1806a26b.png)
 
 <br>
@@ -43,14 +44,14 @@ Snapshot showing the Arduino IDE File->Examples->Arduino JSON examples after the
 
 
 Snapshot of the Arduino JSON premade library examples that can be used by modifying to suit our needs.
+I have taken the sample JSON code and modified it suit my needs.
+<br>
 ![screen shot 2019-03-07 at 12 02 39 pm](https://user-images.githubusercontent.com/14288989/53936765-fdfb7080-40d0-11e9-8e4b-a80bd99672b6.png)
 
 <br>
 <br>
-<br>
-<br>
 
-Here, I am connecting to Arduinojson.org with port 80 in the IDE code and retrieve some sample JSON response.
+Here, I am connecting to http://Arduinojson.org with port 80 in the IDE code and retrieve some sample JSON response.
 
 The connection schematic is as shown in the diagram below.
 
@@ -61,8 +62,6 @@ response in JSON and parses it and prints it on the serial monitor.
 
 The response is printed on the Serial Monitor of the Arduino IDE and a snapshot is attached below.
 
-<br>
-<br>
 <br>
 <br>
 
